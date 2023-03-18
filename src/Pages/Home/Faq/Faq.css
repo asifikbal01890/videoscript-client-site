@@ -1,0 +1,4 @@
+.border-animated{
+    height: 64px;
+    transition: height 0.3s ease-in-out
+}

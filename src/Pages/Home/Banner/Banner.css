@@ -1,0 +1,18 @@
+.animate-img-1 {
+    animation: mover 4s infinite  alternate;
+}
+@keyframes mover {
+    100% { transform: translatey(-55px); }
+}
+.animate-img-2 {
+    animation: mover2 4.5s infinite  alternate;
+}
+@keyframes mover2 {
+    100% { transform: translateY(-55px); }
+}
+.animate-img-3 {
+    animation: mover2 3.5s infinite  alternate;
+}
+@keyframes mover3 {
+    100% { transform: translateY(-64px); }
+}
