@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import Faq from './Faq/Faq';
 import Reviews from './Reviews/Reviews';
 import WhyChoose from './WhyChoose/WhyChoose';
+import Pricing from './Pricing/Pricing';
 
 const Home = () => {
     const reviewsInfo = useLoaderData();
@@ -11,6 +12,7 @@ const Home = () => {
         <div>
            <Banner></Banner>
            <WhyChoose></WhyChoose>
+           <Pricing></Pricing>
            <Reviews
             reviewsInfo={reviewsInfo}
            ></Reviews>

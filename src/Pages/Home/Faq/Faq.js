@@ -4,11 +4,11 @@ import './Faq.css'
 const Faq = () => {
 
     return (
-        <div className='ml-16 mr-4 mt-28 font-[Heebo]'>
+        <div className='ml-16 mr-4 mt-28 font-[Heebo] z-0'>
             <div>
                 <h2 className='font-[Oswald] text-center my-16 text-4xl font-semibold'>Frequently Asked Question</h2>
             </div>
-            <div tabIndex={0} className="collapse collapse-plus border-y border-base-300 bg-base-100 py-2">
+            <div tabIndex={0} className="collapse static collapse-plus border-y border-base-300 bg-base-100 py-2">
                 <div className="collapse-title text-2xl">
                     What is a video link to text convert website?
                 </div>
