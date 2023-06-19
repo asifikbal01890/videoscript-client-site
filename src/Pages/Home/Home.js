@@ -7,6 +7,7 @@ import WhyChoose from './WhyChoose/WhyChoose';
 import Pricing from './Pricing/Pricing';
 import TotalUser from './TotalUser/TotalUser';
 import Company from './Company/Company';
+import TranscribeSteps from './TranscribeSteps/TranscribeSteps';
 
 const Home = () => {
     const reviewsInfo = useLoaderData();
@@ -14,6 +15,7 @@ const Home = () => {
         <div>
            <Banner></Banner>
            <Company></Company>
+           <TranscribeSteps></TranscribeSteps>
            <WhyChoose></WhyChoose>
            <Pricing></Pricing>
            <TotalUser></TotalUser>

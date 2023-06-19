@@ -57,7 +57,7 @@ const chooseInfos =
     return (
         <div className='ml-16 mr-4 text-center my-16'>
           <div>
-          <h1 className='font-[Oswald] text-3xl font-semibold'>Why Choose Videoscript?</h1>
+          <h1 className='font-[Oswald] text-4xl font-semibold'>Why Choose Videoscript?</h1>
           </div>
           <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-16'>
             {
