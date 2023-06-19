@@ -5,6 +5,7 @@ import Faq from './Faq/Faq';
 import Reviews from './Reviews/Reviews';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Pricing from './Pricing/Pricing';
+import TotalUser from './TotalUser/TotalUser';
 
 const Home = () => {
     const reviewsInfo = useLoaderData();
@@ -13,6 +14,7 @@ const Home = () => {
            <Banner></Banner>
            <WhyChoose></WhyChoose>
            <Pricing></Pricing>
+           <TotalUser></TotalUser>
            <Reviews
             reviewsInfo={reviewsInfo}
            ></Reviews>
